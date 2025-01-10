@@ -1,0 +1,131 @@
+/*  1번 */
+
+.mother{
+    display: flex;
+    justify-content: space-between;
+}
+
+.children{
+    color: white;
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    justify-content: flex-end;
+}
+
+.uncle{
+    display: flex;
+}
+
+.second{
+    margin-left: 10px;
+}
+
+/*  1번  끝*/
+
+/*  2번 */
+
+.main_box{
+    display: flex;
+    flex-direction: column;
+}
+
+.box{
+    color: white;
+    background-color: black;
+    width: 100px;
+    height: 100px;
+}
+
+.center{
+    align-self: center;
+}
+
+.end{
+    align-self: flex-end;
+}
+
+/*  2번 끝 */
+
+
+/*  3번 */
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.box-b{
+    color: white;
+    background-color: darkgrey;
+    width: 300px;
+    height: 300px;
+    position: relative;
+}
+
+.box{
+    color: white;
+    background-color: black;
+    width: 150px;
+    height: 150px;
+}
+
+.box-s{
+    position: absolute;
+    top: 75px;
+}
+
+/*  3번 끝 */
+
+/*  4번 */
+
+.candy{
+    color: white;
+    background-color: black;
+    width: 100px;
+    height: 100px;
+}
+
+.candy-1{
+    background-color: gray;
+}
+
+.candy-po{
+    position: relative;
+    top: -50px;
+    left: 50px;
+}
+/*  4번 끝 */
+
+/*  5번 */
+
+.box-m{
+    color: white;
+    background-color: gray;
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+.apsl{
+    color: white;
+    background-color: black;
+    width: 100px;
+    height: 100px;
+}
+
+.box-c1{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.box-c2{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+/*  5번 끝 */
