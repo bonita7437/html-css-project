@@ -46,3 +46,13 @@ footer {
     display: block;
   }
 }
+
+@media (max-width: 600px) {
+  .first-line {
+    display: block;
+    text-align: center;
+  }
+  .fo-me {
+    display: block;
+  }
+}
